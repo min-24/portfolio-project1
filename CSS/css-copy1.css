@@ -1,0 +1,97 @@
+nav img {
+    width: 100%;
+    height: auto;
+}
+
+
+nav  {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    padding: 5px;
+}
+
+nav .logo img {
+    height: 40px;
+}
+
+nav .menu a {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#4a4949;
+}
+
+img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/*------------------------------*/
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    color: #4a4949;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 20px;
+}
+
+.profile-container img {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.about-container {
+    width: 400px;
+}
+
+
+.bicycle-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.bicycle-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.bicycle-item img {
+    width: 250px;
+    height: 180px;
+}
+
+p {
+    margin-top: 5px;
+    color: #4a4949;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 50px;
+}
